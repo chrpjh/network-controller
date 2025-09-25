@@ -1,0 +1,1 @@
+helm upgrade --install network-operator nvidia/network-operator -n aipub-network-operator -f values.yaml

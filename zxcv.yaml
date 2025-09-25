@@ -1,0 +1,13 @@
+status:
+  allocatable:
+    cpu: "224"
+    ephemeral-storage: "1699582627075"
+    hugepages-1Gi: "0"
+    hugepages-2Mi: "0"
+    memory: 2113368480Ki
+    ten1010.io/netif-ib-400g: "128"
+    pods: "110"
+    spaceflow/gpu-mig-40448mb-h100-80gb-hbm3-3slice: "0"
+    spaceflow/gpu-mig-40448mb-h100-80gb-hbm3-4slice: "0"
+    spaceflow/gpu-normal-85520mb-h100-80gb-hbm3: "0"
+    ten1010.io/gpu-normal-85520mb-h100: "8"

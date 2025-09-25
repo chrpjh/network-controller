@@ -1,0 +1,15 @@
+operatorNamespace: aipub-network-operator
+
+nfd:
+  enabled: false
+
+sriovNetworkOperator:
+  enabled: true
+
+secondaryNetwork:
+  deploy: true
+
+sriovDevicePlugin:
+  deploy: true
+  config:
+    resourcePrefix: "ten1010.io"

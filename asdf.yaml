@@ -1,0 +1,15 @@
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetworkNodePolicy
+metadata:
+  name: ib-400g
+  namespace: aipub-network-operator
+spec:
+  resourceName: netif-infiniband-400g
+  nodeSelector:
+    kubernetes.io/hostname: pnode5.idc1.ten1010.io
+  numVfs: 1
+  nicSelector:
+    pfNames: ["ibp94s0", "ibp79s0", "ibp64s0", "ibp24s0", "ibp220s0", "ibp206s0", "ibp192s0", "ibp154s0"]
+  deviceType: netdevice
+  isRdma: true
+  linkType: IB
